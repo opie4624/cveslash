@@ -28,9 +28,9 @@ defmodule Cveupdater.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-			{:exmerl, "~> 0.1.1"},
-			{:sweet_xml, "~> 0.5.0"},
-			{:couchbeam, git: "https://github.com/benoitc/couchbeam.git", tag: "1.2.x", compile: "/usr/bin/rebar3 compile"}
-		]
+      {:exmerl, "~> 0.1.1"},
+      {:sweet_xml, "~> 0.5.0"},
+      {:couchbeam, git: "https://github.com/benoitc/couchbeam.git", tag: "1.2.x", compile: "/usr/bin/rebar3 compile"}
+    ]
   end
 end
