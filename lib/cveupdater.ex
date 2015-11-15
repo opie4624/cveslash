@@ -10,8 +10,6 @@ defmodule Cveupdater do
       [{_id: 'CVE-2002-0001'}]
   """
   def fetch_entries(url) do
-    :ssl.start
-    :inets.start
     {:ok, {{_, 200, _}, _, body}} = :httpc.request(url)
     body
     |> :zlib.gunzip
