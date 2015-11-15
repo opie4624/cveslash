@@ -40,5 +40,13 @@ defmodule Cveupdater do
 			published: ~x"./vuln:published-datetime/text()",
 			modified: ~x"./vuln:last-modified-datetime/text()"
 		)
-	end	
+	end
+
+	def load_entries(start_year, end_year) do
+		for year <- start_year..end_year do
+			to_char_list(to_string(['https://nvd.nist.gov/feeds/xml/cve/nvdcve-2.0-', to_char_list(year), '.xml.gz']))
+			|> fetch_entries
+			|> Cvestore.insert_entries
+		end
+	end
 end

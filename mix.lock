@@ -1,2 +1,4 @@
-%{"exmerl": {:hex, :exmerl, "0.1.1"},
+%{"amnesia": {:hex, :amnesia, "0.2.0"},
+  "exmerl": {:hex, :exmerl, "0.1.1"},
+  "exquisite": {:hex, :exquisite, "0.1.5"},
   "sweet_xml": {:hex, :sweet_xml, "0.5.0"}}

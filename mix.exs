@@ -29,7 +29,8 @@ defmodule Cveupdater.Mixfile do
   defp deps do
     [
 			{:exmerl, "~> 0.1.1"},
-			{:sweet_xml, "~> 0.5.0"}
+			{:sweet_xml, "~> 0.5.0"},
+			{:amnesia, "~> 0.2.0"}
 		]
   end
 end
