@@ -1,2 +1,3 @@
-%{"exmerl": {:hex, :exmerl, "0.1.1"},
+%{"couchbeam": {:git, "https://github.com/benoitc/couchbeam.git", "d8502a91d553b0e0bef61c31987c1fad46c5957f", [tag: "1.2.x"]},
+  "exmerl": {:hex, :exmerl, "0.1.1"},
   "sweet_xml": {:hex, :sweet_xml, "0.5.0"}}
