@@ -1,4 +1,3 @@
-
 defmodule Cveupdater do
 	import SweetXml
 
