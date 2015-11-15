@@ -28,9 +28,9 @@ defmodule Cveupdater.Mixfile do
   # Type "mix help deps" for more examples and options
   defp deps do
     [
-			{:exmerl, "~> 0.1.1"},
-			{:sweet_xml, "~> 0.5.0"},
-			{:amnesia, "~> 0.2.0"}
-		]
+      {:exmerl, "~> 0.1.1"},
+      {:sweet_xml, "~> 0.5.0"},
+      {:amnesia, "~> 0.2.0"}
+    ]
   end
 end
